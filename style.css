@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+body {
+  width: 100%;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.nav-item  {
+  padding: 1rem 3rem;
+  text-decoration: none;
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #004aad;
+}
+
+.nav-item:hover {
+  background-color: #004aad;
+  color: #fff;
+}
+
+.nav-title {
+  margin-right: auto;
+}
+
+.hero {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero-resume {
+  width: 60%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.hero-picture {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-picture img {
+  padding: 1rem;
+  width: 300px;
+  border-radius: 30px;
+}
