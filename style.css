@@ -62,11 +62,10 @@ nav {
   align-items: flex-start;
 }
 
-.hero-resume h1 {
+.hero-resume h2 {
   margin-bottom: 36px;
   font-size: 36px;
   line-height: 48px;
-  
 }
 
 .hero-resume p {
@@ -101,7 +100,9 @@ nav {
 }
 
 .projects h2 {
-  margin: 2rem;
+  margin: 36px 0;
+  font-size: 36px;
+  line-height: 48px;
 }
 
 .project-card {
@@ -144,4 +145,19 @@ nav {
 
 .project-screenshot img:hover {
   filter: brightness(60%);
+}
+
+.contact {
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #004aad;
+}
+
+.contact h2 {
+  margin: 36px 0;
+  font-size: 36px;
+  line-height: 48px;
 }
