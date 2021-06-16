@@ -1,89 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css" />
-    <title>Adonai Luque</title>
-  </head>
-  <body>
-    <nav>
-      <a class="nav-title nav-item" href="">Adonai Luque</a>
-      <a class="nav-item" href="#projects">Sample Projects</a>
-      <a class="nav-item" href="#contact">Contact</a>
-    </nav>
-    <section class="hero" id="hero">
-      <div class="hero-resume">
-        <h2>Hi, I am Adonai, <br>Full Stack Web Developer</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-          labore reiciendis harum! Labore consequatur nihil officia, accusamus
-          consectetur quia fugiat eius libero illo neque? Ullam eligendi
-          asperiores non. Amet, rem.
-        </p>
-        <a class="download-button" href="./assets/pdfs/Adonai Luque - Resume.pdf" download>Download Resume</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Adonai Luque</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <p class="nav-item nav-title">Adonai Luque</a>
+    <p class="nav-item">Sample Projects</a>
+    <p class="nav-item">Contact</a>
+  </nav>
+  <section class="hero" id="hero">
+    <div class="hero-resume">
+      <h2>Hi, I am Adonai, <br>Full Stack Web Developer</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+        labore reiciendis harum! Labore consequatur nihil officia, accusamus
+        consectetur quia fugiat eius libero illo neque? Ullam eligendi
+        asperiores non. Amet, rem.
+      </p>
+      <a class="download-button" href="./assets/pdfs/Adonai Luque - Resume.pdf" download>Download Resume</a>
+    </div>
+    <div class="hero-picture">
+      <img src="./assets/images/Square.jpg" alt="Adonai Luque Headshot" />
+    </div>
+  </section>
+  <section class="projects" id="projects">
+    <h2>Sample Projects</h2>
+    <div class="project-card">
+      <div class="project-description">
+        <h3>Contact Manager</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est ipsam mollitia odio ratione
+            corporis.</p>
       </div>
-      <div class="hero-picture">
-        <img src="./assets/images/Square.jpg" alt="Adonai Luque Headshot" />
+      <div class="project-screenshot"
+        onclick="window.open('https://adonai-luque.github.io/react-basics-contact-app/');">
+        <img src="./assets/images/project00.jpg" alt="Contact Manager screenshot">
       </div>
-    </section>
-    <section class="projects" id="projects">
-      <h2>Sample Projects</h2>
-      <div class="project-card">
-        <div class="project-description">
-          <h3>Contact Manager</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est ipsam mollitia odio ratione corporis.</p>
-        </div>
-        <div class="project-screenshot" onclick="window.open('https://adonai-luque.github.io/react-basics-contact-app/');">
-          <img src="./assets/images/project00.jpg" alt="Contact Manager screenshot">
-        </div>
+    </div>
+    <div class="project-card">
+      <div class="project-description">
+        <h3>Contact Manager</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est ipsam mollitia odio ratione
+            corporis.</p>
       </div>
-      <div class="project-card">
-        <div class="project-description">
-          <h3>Contact Manager</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est ipsam mollitia odio ratione corporis.</p>
-        </div>
-        <div class="project-screenshot" onclick="window.open('https://adonai-luque.github.io/react-basics-contact-app/');">
-          <img src="./assets/images/project00.jpg" alt="Contact Manager screenshot">
-        </div>
+      <div class="project-screenshot"
+        onclick="window.open('https://adonai-luque.github.io/react-basics-contact-app/');">
+        <img src="./assets/images/project00.jpg" alt="Contact Manager screenshot">
       </div>
-      <div class="project-card">
-        <div class="project-description">
-          <h3>Contact Manager</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est ipsam mollitia odio ratione corporis.</p>
-        </div>
-        <div class="project-screenshot" onclick="window.open('https://adonai-luque.github.io/react-basics-contact-app/');">
-          <img src="./assets/images/project00.jpg" alt="Contact Manager screenshot">
-        </div>
+    </div>
+    <div class="project-card">
+      <div class="project-description">
+        <h3>Contact Manager</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae est ipsam mollitia odio ratione
+            corporis.</p>
       </div>
-    </section>
-    <section class="contact" id="contact">
-      <h2>Contact me</h2>
-      <form class="contact-form" action="https://formsubmit.co/akluqueprieto@gmail.com" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
-        <input type="text" name="name" placeholder="Name" required>
-        <input type="email" name="email" placeholder="E-mail" required>
-        <textarea name="message" placeholder="Message"></textarea>
-        <button type="submit">Contact me</button>
-      </form>
-      <div class="contact-links">
-        <div class="contact-item">
-          <p><i class="fas fa-phone"></i>+51 988966620</p>
-        </div>
-        <div class="contact-item">
-          <a href="mailto:akluqueprieto@gmail.com" target="_blank"><i class="far fa-envelope"></i>akluqueprieto@gmail.com</a> 
-        </div>
-        <div class="contact-item">
-          <a href="https://www.linkedin.com/in/adonailuque" target="_blank"><i class="fab fa-linkedin"></i>linkedin.com/in/adonailuque</a>
-        </div>
-        <div class="contact-item">
-          <a href="https://github.com/adonai-luque" target="_blank"><i class="fab fa-github"></i>github.com/adonai-luque</a>
-        </div>
+      <div class="project-screenshot"
+        onclick="window.open('https://adonai-luque.github.io/react-basics-contact-app/');">
+        <img src="./assets/images/project00.jpg" alt="Contact Manager screenshot">
       </div>
-      
-    </section>
-  </body>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <h2>Contact me</h2>
+    <form class="contact-form" action="https://formsubmit.co/akluqueprieto@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://adonai-luque.github.io/thanks.html">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+      <textarea name="message" placeholder="Message"></textarea>
+      <button type="submit">Contact me</button>
+    </form>
+    <div class="contact-links">
+      <a class="contact-item display-none" href="https://wa.me/51988966620" target="_blank">
+        <img class="icon" src="./assets/icons/whatsapp.svg" alt="WhatsApp Icon">
+        <p>+51 988966620</p>
+      </a>
+      <a class="contact-item" href="mailto:akluqueprieto@gmail.com" target="_blank">
+        <img class="icon" src="./assets/icons/gmail.svg" alt="Gmail Icon">
+        akluqueprieto@gmail.com
+      </a>
+      <a class="contact-item" href="https://www.linkedin.com/in/adonailuque" target="_blank">
+        <img class="icon" src="./assets/icons/linkedin.svg" alt="Linkedin Icon">
+        linkedin.com/in/adonailuque
+      </a>
+      <a class="contact-item" href="https://github.com/adonai-luque" target="_blank">
+        <img class="icon" src="./assets/icons/github.svg" alt="GitHub Icon">
+        github.com/adonai-luque
+      </a>
+      <a class="contact-item" href="https://www.codewars.com/users/adonai-luque" target="_blank">
+        <img class="icon" src="./assets/icons/codewars.svg" alt="Codewars Icon">
+        codewars.com/users/adonai-luque
+      </a>
+    </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+
 </html>
