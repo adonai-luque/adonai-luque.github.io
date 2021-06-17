@@ -112,10 +112,9 @@ body {
 }
 
 .hero-picture img {
-  width: 240px;
+  width: 200px;
   border-radius: 50%;
-  box-shadow: -4px 4px 6px 0px rgba(25, 100, 189, 0.5);
-  opacity: 0.9;
+  box-shadow: -4px 4px 4px 0px rgba(25, 100, 189, 0.5);
 }
 
 .projects {
