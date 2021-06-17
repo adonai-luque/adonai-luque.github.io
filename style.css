@@ -9,6 +9,9 @@
 body {
   width: 100%;
   font-family: "Spartan", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Mobile First */
@@ -17,7 +20,6 @@ body {
   position: fixed;
   top: 0px;
   width: 100%;
-  height: 180px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -28,17 +30,18 @@ body {
 
 .nav-item {
   width: 100%;
-  height: 60px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   font-family: "Spartan", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 36px;
   font-weight: 700;
   color: #004aad;
   cursor: pointer;
+  background-color: rgba(25, 100, 189, 0.2);
 }
 
 .nav-item:hover {
@@ -47,9 +50,9 @@ body {
 }
 
 .hero {
-  padding-top: 220px;
-  padding-bottom: 60px;
-  height: 100%;
+  width: 100%;
+  padding-top: 140px;
+  padding-bottom: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,7 +62,7 @@ body {
 }
 
 .hero-resume {
-  width: 70%;
+  width: 80%;
   display: flex;
   padding: 0 48px;
   flex-direction: column;
@@ -70,13 +73,13 @@ body {
 
 .hero-resume h2 {
   margin-bottom: 24px;
-  font-size: 36px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .hero-resume p {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .download-button {
@@ -84,9 +87,9 @@ body {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  padding: 15px 15px 10px 15px;
+  padding: 12px 12px 8px 12px;
   margin: 32px 0;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   color: #fff;
   background-color: #004aad;
@@ -113,8 +116,8 @@ body {
 
 .projects {
   width: 100%;
+  padding-bottom: 36px;
   background-color: rgba(25, 100, 189, 0.2);
-  padding-top: 180px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -123,15 +126,13 @@ body {
 
 .projects h2 {
   margin: 36px 0;
-  font-size: 36px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 .project-card {
   width: 80%;
-  max-width: 800px;
-  height: 400px;
-  margin: 2rem;
+  margin: 12px 0;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -141,7 +142,7 @@ body {
 
 .project-description {
   height: 100%;
-  margin: 1rem;
+  margin: 12px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,21 +151,21 @@ body {
 }
 
 .project-description h3 {
-  margin: 1rem;
+  margin: 12px;
 }
 
 .project-description p {
-  margin: 1rem;
+  margin: 12px;
 }
 
 .project-screenshot {
+  margin: 12px 0;
 }
 
 .project-screenshot img {
   cursor: pointer;
-  width: 300px;
-  margin: 2rem;
-  border: 2px solid rgba(25, 100, 189, 0.1);
+  width: 60vw;
+  border: 2px solid rgba(25, 100, 189, 0.3);
 }
 
 .project-screenshot img:hover {
@@ -172,7 +173,7 @@ body {
 }
 
 .contact {
-  padding: 60px 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -182,8 +183,8 @@ body {
 
 .contact h2 {
   margin: 36px 0;
-  font-size: 36px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 .contact-form {
@@ -264,7 +265,8 @@ body {
 }
 
 .contact-links {
-  margin: 60px 0;
+  margin: 72px 0;
+  width: 90%
 }
 
 .contact-item {
@@ -273,23 +275,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 700;
-  color: #004aad;
+  text-decoration: none;
+  color: inherit;
+  background-color: rgba(25, 100, 189, 0.2);
 }
 
-.contact-item p {
-  padding-top: 4px;
+.contact-item:hover {
+  background-color: rgba(25, 100, 189, 0.6);
 }
 
 .contact-item .icon {
-  height: 24px;
-  margin: 12px;
+  height: 18px;
+  margin-right: 12px;
 }
 
-.contact-item {
-  text-decoration: none;
-  color: inherit;
+.contact-item p {
+  margin-top: 4px;
 }
 
 .display-none {
@@ -304,10 +307,10 @@ footer {
   align-items: center;
   font-weight: 600;
   color: #004aad;
-  font-size: 16px;
+  font-size: 12px;
 }
 
-footer span {
+footer .heart {
   color: red;
 }
 
