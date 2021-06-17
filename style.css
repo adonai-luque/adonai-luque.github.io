@@ -155,12 +155,12 @@ body {
 
 .project-description h3 {
   margin: 9px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .project-description p {
-  margin: 9px;
-  font-size: 14px;
+  margin: 9px 18px;
+  font-size: 12px;
 }
 
 .project-screenshot {
@@ -209,6 +209,7 @@ body {
   margin: 6px;
   color: #004aad;
   font-family: "Spartan";
+  font-size: 11px;
   font-weight: 500;
 }
 
@@ -233,6 +234,7 @@ body {
   margin: 6px;
   color: #004aad;
   font-family: "Spartan";
+  font-size: 11px;
   font-weight: 500;
   resize: none;
 }
@@ -308,6 +310,7 @@ body {
 footer {
   height: 48px;
   width: 100%;
+  margin-bottom: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
